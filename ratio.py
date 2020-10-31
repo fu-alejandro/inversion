@@ -1,4 +1,4 @@
-# Ratio P/FCF Price to Free Cash Flow
+# Ratio P/FCF Price to Free Cash Flow, resultado flojo de caja, mide las veces del tamaño del capital sobre el flujo de caja.
 P = float(input("Market Capitalization: "))
 FCF = float(input("Free Cash Flow: "))
 R = P / FCF
@@ -12,3 +12,13 @@ R = P / E
 E = float(input("Beficio: "))
 K = float(input("Capital: "))
 R = E / K
+
+# Ratio Debt / Equit,
+D = float(input("Total Liabilities: "))
+Q = float(input("Total share holders: "))
+R = D / Q
+
+# Ratio Sales
+P = float(input("Market Value per share: "))
+E = float(input("Earning per share: "))
+R = P / E
