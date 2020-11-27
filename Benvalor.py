@@ -16,5 +16,5 @@ G = float(input("Crecimiento anual esperado del beneficio neto durante los pŕox
 M = float(input("Temporalidad de la tasa de crecimiento en Unidad Años: "))
 N = float(input("Temporalidad Final en Unidad Años: "))
 # fOrmula
-GN = ((1+G))^(M/N)-1)*100
+GN = ((1+G))**(M/N)-1)*100
 print(GN)
