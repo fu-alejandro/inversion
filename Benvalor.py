@@ -18,3 +18,5 @@ N = float(input("Temporalidad Final en Unidad Años: "))
 # fOrmula
 GN = ((1+G))**(M/N)-1)*100
 print(GN)
+
+# Hello Kitty
